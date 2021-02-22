@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		158215C1C2DCB224F6444E04 /* Pods_AsyncSocketTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4333D1C69F3EC3768340D657 /* Pods_AsyncSocketTest.framework */; };
+		62743F78714FBB71EED7ACC5 /* Pods_AsyncSocketTest_AsyncSocketTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D719CF20E02D0143D37007F9 /* Pods_AsyncSocketTest_AsyncSocketTestUITests.framework */; };
 		69DB05DD25E372D00023A80E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69DB05DC25E372D00023A80E /* AppDelegate.swift */; };
 		69DB05DF25E372D00023A80E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69DB05DE25E372D00023A80E /* SceneDelegate.swift */; };
 		69DB05E125E372D00023A80E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69DB05E025E372D00023A80E /* ViewController.swift */; };
@@ -15,6 +17,7 @@
 		69DB05E925E372D20023A80E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69DB05E725E372D20023A80E /* LaunchScreen.storyboard */; };
 		69DB05F425E372D30023A80E /* AsyncSocketTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69DB05F325E372D30023A80E /* AsyncSocketTestTests.swift */; };
 		69DB05FF25E372D30023A80E /* AsyncSocketTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69DB05FE25E372D30023A80E /* AsyncSocketTestUITests.swift */; };
+		D423AE865811AF7336720DAD /* Pods_AsyncSocketTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89C7AF8753CD52BE899E609A /* Pods_AsyncSocketTestTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2E279D207C82EE3434A68FC6 /* Pods-AsyncSocketTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AsyncSocketTestTests.debug.xcconfig"; path = "Target Support Files/Pods-AsyncSocketTestTests/Pods-AsyncSocketTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4333D1C69F3EC3768340D657 /* Pods_AsyncSocketTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AsyncSocketTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		69DB05D925E372D00023A80E /* AsyncSocketTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AsyncSocketTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		69DB05DC25E372D00023A80E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		69DB05DE25E372D00023A80E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +54,13 @@
 		69DB05FA25E372D30023A80E /* AsyncSocketTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AsyncSocketTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		69DB05FE25E372D30023A80E /* AsyncSocketTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncSocketTestUITests.swift; sourceTree = "<group>"; };
 		69DB060025E372D30023A80E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70C68634FFA273B351C465EC /* Pods-AsyncSocketTest-AsyncSocketTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AsyncSocketTest-AsyncSocketTestUITests.release.xcconfig"; path = "Target Support Files/Pods-AsyncSocketTest-AsyncSocketTestUITests/Pods-AsyncSocketTest-AsyncSocketTestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		72530DDBA78481B8F219F89D /* Pods-AsyncSocketTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AsyncSocketTest.debug.xcconfig"; path = "Target Support Files/Pods-AsyncSocketTest/Pods-AsyncSocketTest.debug.xcconfig"; sourceTree = "<group>"; };
+		89C7AF8753CD52BE899E609A /* Pods_AsyncSocketTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AsyncSocketTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		92084BE9F3B6B61D2D752D2A /* Pods-AsyncSocketTest-AsyncSocketTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AsyncSocketTest-AsyncSocketTestUITests.debug.xcconfig"; path = "Target Support Files/Pods-AsyncSocketTest-AsyncSocketTestUITests/Pods-AsyncSocketTest-AsyncSocketTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D2194FA942AF05C46DBA421F /* Pods-AsyncSocketTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AsyncSocketTestTests.release.xcconfig"; path = "Target Support Files/Pods-AsyncSocketTestTests/Pods-AsyncSocketTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		D6B8AA828D8C25BEEC9D661C /* Pods-AsyncSocketTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AsyncSocketTest.release.xcconfig"; path = "Target Support Files/Pods-AsyncSocketTest/Pods-AsyncSocketTest.release.xcconfig"; sourceTree = "<group>"; };
+		D719CF20E02D0143D37007F9 /* Pods_AsyncSocketTest_AsyncSocketTestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AsyncSocketTest_AsyncSocketTestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				158215C1C2DCB224F6444E04 /* Pods_AsyncSocketTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D423AE865811AF7336720DAD /* Pods_AsyncSocketTestTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62743F78714FBB71EED7ACC5 /* Pods_AsyncSocketTest_AsyncSocketTestUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +98,8 @@
 				69DB05F225E372D30023A80E /* AsyncSocketTestTests */,
 				69DB05FD25E372D30023A80E /* AsyncSocketTestUITests */,
 				69DB05DA25E372D00023A80E /* Products */,
+				E035A1067B789D74F711FFA8 /* Pods */,
+				BF11FF2E14E02C580CCF5120 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +145,30 @@
 			path = AsyncSocketTestUITests;
 			sourceTree = "<group>";
 		};
+		BF11FF2E14E02C580CCF5120 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4333D1C69F3EC3768340D657 /* Pods_AsyncSocketTest.framework */,
+				D719CF20E02D0143D37007F9 /* Pods_AsyncSocketTest_AsyncSocketTestUITests.framework */,
+				89C7AF8753CD52BE899E609A /* Pods_AsyncSocketTestTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E035A1067B789D74F711FFA8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				72530DDBA78481B8F219F89D /* Pods-AsyncSocketTest.debug.xcconfig */,
+				D6B8AA828D8C25BEEC9D661C /* Pods-AsyncSocketTest.release.xcconfig */,
+				92084BE9F3B6B61D2D752D2A /* Pods-AsyncSocketTest-AsyncSocketTestUITests.debug.xcconfig */,
+				70C68634FFA273B351C465EC /* Pods-AsyncSocketTest-AsyncSocketTestUITests.release.xcconfig */,
+				2E279D207C82EE3434A68FC6 /* Pods-AsyncSocketTestTests.debug.xcconfig */,
+				D2194FA942AF05C46DBA421F /* Pods-AsyncSocketTestTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +176,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 69DB060325E372D30023A80E /* Build configuration list for PBXNativeTarget "AsyncSocketTest" */;
 			buildPhases = (
+				2E4FDBEA03159370363E81D2 /* [CP] Check Pods Manifest.lock */,
 				69DB05D525E372D00023A80E /* Sources */,
 				69DB05D625E372D00023A80E /* Frameworks */,
 				69DB05D725E372D00023A80E /* Resources */,
+				707B7CE7D3B93925A2CBEA2E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +195,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 69DB060625E372D30023A80E /* Build configuration list for PBXNativeTarget "AsyncSocketTestTests" */;
 			buildPhases = (
+				E694ADFEBCF6F9108E92AA41 /* [CP] Check Pods Manifest.lock */,
 				69DB05EB25E372D30023A80E /* Sources */,
 				69DB05EC25E372D30023A80E /* Frameworks */,
 				69DB05ED25E372D30023A80E /* Resources */,
@@ -170,9 +214,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 69DB060925E372D30023A80E /* Build configuration list for PBXNativeTarget "AsyncSocketTestUITests" */;
 			buildPhases = (
+				043B460ADE7D4BC07605AFC6 /* [CP] Check Pods Manifest.lock */,
 				69DB05F625E372D30023A80E /* Sources */,
 				69DB05F725E372D30023A80E /* Frameworks */,
 				69DB05F825E372D30023A80E /* Resources */,
+				48A397C48F13E6BA3F9991C5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -252,6 +298,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		043B460ADE7D4BC07605AFC6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AsyncSocketTest-AsyncSocketTestUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2E4FDBEA03159370363E81D2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AsyncSocketTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		48A397C48F13E6BA3F9991C5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AsyncSocketTest-AsyncSocketTestUITests/Pods-AsyncSocketTest-AsyncSocketTestUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AsyncSocketTest-AsyncSocketTestUITests/Pods-AsyncSocketTest-AsyncSocketTestUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AsyncSocketTest-AsyncSocketTestUITests/Pods-AsyncSocketTest-AsyncSocketTestUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		707B7CE7D3B93925A2CBEA2E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AsyncSocketTest/Pods-AsyncSocketTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AsyncSocketTest/Pods-AsyncSocketTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AsyncSocketTest/Pods-AsyncSocketTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E694ADFEBCF6F9108E92AA41 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AsyncSocketTestTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		69DB05D525E372D00023A80E /* Sources */ = {
@@ -433,6 +582,7 @@
 		};
 		69DB060425E372D30023A80E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72530DDBA78481B8F219F89D /* Pods-AsyncSocketTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -451,6 +601,7 @@
 		};
 		69DB060525E372D30023A80E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6B8AA828D8C25BEEC9D661C /* Pods-AsyncSocketTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -469,6 +620,7 @@
 		};
 		69DB060725E372D30023A80E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E279D207C82EE3434A68FC6 /* Pods-AsyncSocketTestTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +642,7 @@
 		};
 		69DB060825E372D30023A80E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2194FA942AF05C46DBA421F /* Pods-AsyncSocketTestTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -511,6 +664,7 @@
 		};
 		69DB060A25E372D30023A80E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92084BE9F3B6B61D2D752D2A /* Pods-AsyncSocketTest-AsyncSocketTestUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -530,6 +684,7 @@
 		};
 		69DB060B25E372D30023A80E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70C68634FFA273B351C465EC /* Pods-AsyncSocketTest-AsyncSocketTestUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
