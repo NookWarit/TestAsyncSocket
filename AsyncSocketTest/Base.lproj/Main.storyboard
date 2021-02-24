@@ -142,31 +142,19 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TIx-cI-u2o">
-                                                    <rect key="frame" x="25" y="11.5" width="307" height="21"/>
+                                                    <rect key="frame" x="25" y="11.5" width="364" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" systemColor="systemRedColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xmq-it-s2S">
-                                                    <rect key="frame" x="342" y="11.5" width="42" height="21"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="width" constant="42" id="fnD-Z0-OU1"/>
-                                                    </constraints>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" systemColor="systemGreenColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
                                             <constraints>
                                                 <constraint firstItem="TIx-cI-u2o" firstAttribute="leading" secondItem="mFh-ne-zdW" secondAttribute="leadingMargin" constant="5" id="5wj-A7-EYf"/>
-                                                <constraint firstAttribute="trailingMargin" secondItem="Xmq-it-s2S" secondAttribute="trailing" constant="10" id="Rga-6I-m2Z"/>
                                                 <constraint firstItem="TIx-cI-u2o" firstAttribute="centerY" secondItem="mFh-ne-zdW" secondAttribute="centerY" id="W6I-ai-JwT"/>
-                                                <constraint firstItem="Xmq-it-s2S" firstAttribute="leading" secondItem="TIx-cI-u2o" secondAttribute="trailing" constant="10" id="toZ-fo-FX4"/>
-                                                <constraint firstItem="Xmq-it-s2S" firstAttribute="centerY" secondItem="TIx-cI-u2o" secondAttribute="centerY" id="yoR-mO-N4M"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="TIx-cI-u2o" secondAttribute="trailing" constant="5" id="buX-g2-FuJ"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <outlet property="chanel" destination="Xmq-it-s2S" id="CqG-9r-81D"/>
                                             <outlet property="title" destination="TIx-cI-u2o" id="Vuq-Eu-w7x"/>
                                         </connections>
                                     </tableViewCell>

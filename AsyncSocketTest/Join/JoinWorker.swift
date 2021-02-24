@@ -158,7 +158,7 @@ extension JoinWorker: GCDAsyncSocketDelegate {
     
     func socketDidDisconnect(_ sock: GCDAsyncSocket, withError err: Error?) {
         if err != nil {
-          //  print("Socket Did Disconnect with Error \(String(describing: err)) with User Info \(err!.localizedDescription).")
+            print("Socket Did Disconnect with Error \(String(describing: err)) with User Info \(err!.localizedDescription).")
             socketStatusCompletionBlock("Socket Did Disconnect with Error \(String(describing: err)) with User Info \(err!.localizedDescription).", sock)
             joinSocket.delegate = nil
             joinSocket = GCDAsyncSocket()

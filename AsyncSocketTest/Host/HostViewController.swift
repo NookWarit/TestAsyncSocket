@@ -35,7 +35,10 @@ class HostViewController: UIViewController, HostPresenterDelegate {
     
     //MARK: - Button Actions
     
- 
+    deinit {
+        print("deinit host vc")
+        hostPresenter.removeSocket()
+    }
 //    @IBAction func btnBackClicked(_ sender: Any) {
 //        self.navigationController?.popViewController(animated: true)
 //        hostPresenter.removeSocket()
@@ -74,6 +77,9 @@ class HostViewController: UIViewController, HostPresenterDelegate {
             return
         }
         welcomeVc.incomingActionWith(str: str)
+        if welcomeVc.tableView != nil {
+            welcomeVc.tableView.reloadData()
+        }
     }
 
 }

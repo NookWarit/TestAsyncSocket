@@ -68,6 +68,9 @@ extension JoinViewController: JoinPresenterDelegate {
             return
         }
         welcomeVc.incomingActionWith(str: str)
+        if welcomeVc.tableView != nil {
+            welcomeVc.tableView.reloadData()
+        }
     }
     
     

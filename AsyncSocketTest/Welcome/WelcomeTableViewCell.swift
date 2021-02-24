@@ -10,7 +10,6 @@ import UIKit
 class WelcomeTableViewCell: UITableViewCell {
     // MARK: IBOutlet
     @IBOutlet weak var title: UILabel!
-    @IBOutlet weak var chanel: UILabel!
     
 
     override func awakeFromNib() {
