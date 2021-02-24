@@ -13,4 +13,9 @@ class Network: NSObject {
         static let acceptedMsg = "Accepted"
         static let socketConnected = "SOCKET CONNECTION TESTED"
     }
+    
+    struct User {
+        static let Host = "Host"
+        static let Join = "Joiner"
+    }
 }

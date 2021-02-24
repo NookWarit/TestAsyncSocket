@@ -72,7 +72,7 @@ extension JoinWorker: NetServiceBrowserDelegate {
             return service != $0
         }
         if !moreComing {
-            //Reload tableview
+//            Reload tableview
             reloadConnectionsBlock(self.services)
         }
     }

@@ -35,18 +35,20 @@ class HostViewController: UIViewController, HostPresenterDelegate {
     
     //MARK: - Button Actions
     
-    @IBAction func btnBackClicked(_ sender: Any) {
-        self.navigationController?.popViewController(animated: true)
-        hostPresenter.removeSocket()
-    }
+ 
+//    @IBAction func btnBackClicked(_ sender: Any) {
+//        self.navigationController?.popViewController(animated: true)
+//        hostPresenter.removeSocket()
+//    }
+    
     
     //MARK: - Other Methods
     
-    func pushToGameView(objSock: GCDAsyncSocket) {
-//        guard let gameVC = self.storyboard?.instantiateViewController(withIdentifier: "GameVC") as? GameVC else { return }
-//        gameVC.isHost = true
-//        gameVC.socket = objSock
-//        self.navigationController?.pushViewController(gameVC, animated: true)
+    func pushToWelcomeView(objSock: GCDAsyncSocket) {
+        guard let welVC = self.storyboard?.instantiateViewController(withIdentifier: "WelcomeViewController") as? WelcomeViewController else { return }
+        welVC.isHost = true
+        welVC.socket = objSock
+        self.navigationController?.pushViewController(welVC, animated: true)
     }
     
     //MARK: - Webservices
@@ -60,18 +62,18 @@ class HostViewController: UIViewController, HostPresenterDelegate {
     func socket(status: String, socket: GCDAsyncSocket) {
         textView.addTextToConsole(text: status)
         if status.contains(Network.NETSERVICE.joinSoc) {
-            self.pushToGameView(objSock: socket)
+            self.pushToWelcomeView(objSock: socket)
         }
     }
     
     func incomingValue(str: String) {
-//        let iVC = self.navigationController?.viewControllers.filter {
-//            return $0 is GameVC
-//            }.first
-//        guard let gameVc = iVC as? GameVC else {
-//            return
-//        }
-//        gameVc.incomingActionWith(str: str)
+        let iVC = self.navigationController?.viewControllers.filter {
+            return $0 is WelcomeViewController
+            }.first
+        guard let welcomeVc = iVC as? WelcomeViewController else {
+            return
+        }
+        welcomeVc.incomingActionWith(str: str)
     }
 
 }

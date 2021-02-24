@@ -1,10 +1,3 @@
-//
-//  JoinViewController.swift
-//  AsyncSocketTest
-//
-//  Created by Foodstory on 22/2/2564 BE.
-//
-
 import UIKit
 import CocoaAsyncSocket
 
@@ -36,6 +29,13 @@ class JoinViewController: UIViewController {
         super.viewDidLayoutSubviews()
     }
     
+    func pushToWelcomeView(objSock: GCDAsyncSocket) {
+        guard let welVC = self.storyboard?.instantiateViewController(withIdentifier: "WelcomeViewController") as? WelcomeViewController else { return }
+        welVC.isHost = false
+        welVC.socket = objSock
+        self.navigationController?.pushViewController(welVC, animated: true)
+    }
+    
 
 }
 
@@ -47,7 +47,7 @@ extension JoinViewController: JoinPresenterDelegate {
     func socket(status: String, socket: GCDAsyncSocket) {
         textView.addTextToConsole(text: status)
         if status.contains(Network.NETSERVICE.hostSoc) {
-//            self.pushToGameView(objSock: socket)
+            self.pushToWelcomeView(objSock: socket)
         }
     }
     
@@ -61,13 +61,13 @@ extension JoinViewController: JoinPresenterDelegate {
     }
     
     func incomingValue(str: String) {
-//        let iVC = self.navigationController?.viewControllers.filter {
-//            return $0 is GameVC
-//            }.first
-//        guard let gameVc = iVC as? GameVC else {
-//            return
-//        }
-//        gameVc.incomingActionWith(str: str)
+        let iVC = self.navigationController?.viewControllers.filter {
+            return $0 is WelcomeViewController
+            }.first
+        guard let welcomeVc = iVC as? WelcomeViewController else {
+            return
+        }
+        welcomeVc.incomingActionWith(str: str)
     }
     
     
